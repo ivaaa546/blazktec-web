@@ -30,7 +30,7 @@ export default function WhyUsSection() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-            Por Qué BlazkTec
+            Por Qué Solutecgy
           </h2>
           <p className="text-muted text-lg sm:text-xl max-w-2xl mx-auto">
             Nos diferenciamos por nuestro compromiso con la excelencia

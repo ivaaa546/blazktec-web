@@ -283,7 +283,7 @@ ${data.projectDescription}
 
       {/* Privacy Note */}
       <p className="text-muted text-xs text-center px-4">
-        Al hacer clic, aceptas que BlazkTec analice tu información para brindarte una propuesta personalizada. La cotización es gratuita y sin compromiso.
+        Al hacer clic, aceptas que Solutecgy analice tu información para brindarte una propuesta personalizada. La cotización es gratuita y sin compromiso.
       </p>
     </form>
   );

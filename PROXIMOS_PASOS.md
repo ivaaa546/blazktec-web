@@ -2,7 +2,7 @@
 
 ## ✅ Estado Actual
 
-El sitio web de BlazkTec ha sido implementado exitosamente con las siguientes características:
+El sitio web de Solutecgy ha sido implementado exitosamente con las siguientes características:
 
 ### Completado
 - ✅ Setup de Next.js 14 con TypeScript y TailwindCSS
@@ -11,7 +11,7 @@ El sitio web de BlazkTec ha sido implementado exitosamente con las siguientes ca
 - ✅ Hero Section con CTA principal
 - ✅ Sección de Servicios (3 cards)
 - ✅ Sección "Cómo Trabajamos" (5 pasos)
-- ✅ Sección "Por Qué BlazkTec" (ventajas)
+- ✅ Sección "Por Qué Solutecgy" (ventajas)
 - ✅ Sección Proyectos (temporal)
 - ✅ Formulario de cotización completo con validación
 - ✅ Integración EmailJS (configuración pendiente)
@@ -39,12 +39,12 @@ El sitio web de BlazkTec ha sido implementado exitosamente con las siguientes ca
 
 3. Crear template de email:
    - Email Templates → Create New Template
-   - **Template Name:** "BlazkTec - Nueva Cotización"
+   - **Template Name:** "Solutecgy - Nueva Cotización"
    - **Subject:** `Nueva Solicitud de Cotización - {{from_name}}`
    - **Content (copiar esto):**
 
 ```html
-<h2>Nueva Solicitud de Cotización de BlazkTec</h2>
+<h2>Nueva Solicitud de Cotización de Solutecgy</h2>
 
 <h3>📋 Datos del Cliente</h3>
 <ul>
@@ -66,7 +66,7 @@ El sitio web de BlazkTec ha sido implementado exitosamente con las siguientes ca
 <p style="white-space: pre-wrap;">{{project_description}}</p>
 
 <hr>
-<p style="color: #888; font-size: 12px;">Este email fue enviado desde el formulario de cotización de blazktec.com</p>
+<p style="color: #888; font-size: 12px;">Este email fue enviado desde el formulario de cotización de solutecgy.com</p>
 ```
 
    - Guardar Template ID
@@ -85,7 +85,7 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=tu_public_key
 ### 2. Probar Localmente (5 minutos)
 
 ```bash
-cd blazktec-web
+cd <directorio-del-proyecto>
 npm run dev
 ```
 
@@ -103,19 +103,19 @@ npm run dev
 
 1. **Crear repositorio Git:**
 ```bash
-cd blazktec-web
+cd <directorio-del-proyecto>
 git init
 git add .
-git commit -m "Initial commit - BlazkTec website"
+git commit -m "Initial commit - Solutecgy website"
 ```
 
 2. **Subir a GitHub:**
    - Crear repo en GitHub: https://github.com/new
-   - Nombre: `blazktec-web`
+   - Nombre: `solutecgy-web`
    - Privado o Público (tú decides)
    
 ```bash
-git remote add origin https://github.com/TU_USUARIO/blazktec-web.git
+git remote add origin https://github.com/TU_USUARIO/solutecgy-web.git
 git branch -M main
 git push -u origin main
 ```
@@ -124,7 +124,7 @@ git push -u origin main
    - Ir a https://vercel.com
    - Sign in with GitHub
    - Click "Add New Project"
-   - Importar `blazktec-web`
+   - Importar `solutecgy-web`
    - En "Environment Variables" agregar:
      - `NEXT_PUBLIC_EMAILJS_SERVICE_ID` = tu service id
      - `NEXT_PUBLIC_EMAILJS_TEMPLATE_ID` = tu template id
@@ -133,7 +133,7 @@ git push -u origin main
    - Esperar 2-3 minutos
 
 4. **Verificar el deploy:**
-   - Vercel te dará una URL: `blazktec-web.vercel.app`
+   - Vercel te dará una URL: `solutecgy-web.vercel.app`
    - Abrir la URL
    - Probar el formulario
    - Verificar que lleguen emails
@@ -154,10 +154,10 @@ vercel --prod
 
 ## 🌐 DOMINIO CUSTOM (Opcional)
 
-Si ya tienes un dominio (ej: blazktec.com):
+Si ya tienes un dominio (ej: solutecgy.com):
 
 1. En Vercel → Settings → Domains
-2. Add Domain: `blazktec.com`
+2. Add Domain: `solutecgy.com`
 3. Configurar DNS según instrucciones:
    - Tipo: `A` → Valor: `76.76.21.21`
    - Tipo: `CNAME` → Nombre: `www` → Valor: `cname.vercel-dns.com`
@@ -183,18 +183,18 @@ Una vez deployado, verificar:
 
 ### Agregar Logo
 1. Crear logo en formato SVG o PNG
-2. Colocar en: `blazktec-web/public/logo.svg`
+2. Colocar en: `<directorio-del-proyecto>/public/logo.svg`
 3. Editar `components/layout/Navbar.tsx`:
 ```tsx
 import Image from 'next/image';
 
 // Reemplazar:
 <span className="text-2xl font-bold tracking-tight text-foreground">
-  BLAZ<span className="text-accent">K</span>TEC
+  SOLUTEC<span className="text-accent">GY</span>
 </span>
 
 // Por:
-<Image src="/logo.svg" alt="BlazkTec" width={150} height={40} />
+<Image src="/logo.svg" alt="Solutecgy" width={150} height={40} />
 ```
 
 ### Agregar Casos Reales
@@ -283,7 +283,7 @@ Una vez en producción, monitorea:
 
 ## 🎯 RESUMEN EJECUTIVO
 
-Tu sitio web de BlazkTec está **100% listo para deployment**. Solo necesitas:
+Tu sitio web de Solutecgy está **100% listo para deployment**. Solo necesitas:
 
 1. ✅ Configurar EmailJS (15 min) - **CRÍTICO**
 2. ✅ Hacer deploy en Vercel (20 min)
@@ -295,4 +295,4 @@ Una vez completado, tendrás un sitio web profesional, moderno y completamente f
 
 ---
 
-**¡Éxito con el lanzamiento de BlazkTec! 🚀**
+**¡Éxito con el lanzamiento de Solutecgy! 🚀**

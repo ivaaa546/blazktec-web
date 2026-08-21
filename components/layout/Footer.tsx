@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="text-center space-y-6">
           {/* Logo/Brand */}
           <div className="text-3xl font-black tracking-tighter">
-            BLAZ<span className="text-accent">K</span>TEC
+            SOLUTEC<span className="text-accent">GY</span>
           </div>
 
           {/* Tagline */}
@@ -19,7 +19,7 @@ export default function Footer() {
 
           {/* Copyright */}
           <p className="text-muted/60 text-sm">
-            © {currentYear} BlazkTec. Diseñado para la eficiencia operativa.
+            © {currentYear} Solutecgy. Diseñado para la eficiencia operativa.
           </p>
 
           {/* Links */}

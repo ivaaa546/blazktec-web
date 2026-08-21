@@ -1,10 +1,10 @@
-# ✅ IMPLEMENTACIÓN COMPLETADA - SITIO WEB BLAZKTEC
+# ✅ IMPLEMENTACIÓN COMPLETADA - SITIO WEB SOLUTECGY
 
 ## 🎉 RESUMEN EJECUTIVO
 
-El sitio web corporativo de BlazkTec ha sido **completamente implementado** y está listo para producción.
+El sitio web corporativo de Solutecgy ha sido **completamente implementado** y está listo para producción.
 
-**Ubicación del proyecto:** `D:\Proyectos\blazktec\blazktec-web`
+**Ubicación del proyecto:** el directorio donde clonaste el repositorio
 
 ---
 
@@ -136,7 +136,7 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=xxxxxxxxxxxxxxx
 
 ### Desarrollo
 ```bash
-cd blazktec-web
+cd <directorio-del-proyecto>
 npm run dev          # Iniciar servidor dev en localhost:3000
 npm run build        # Build de producción
 npm start            # Correr build localmente
@@ -186,7 +186,7 @@ vercel --prod        # Deploy a producción
 
 **Email destino cotizaciones:** ivanii5862@gmail.com
 **WhatsApp:** +502 5564 1352
-**Mensaje WA:** "Hola BlazkTec, vengo del sitio web y quiero más información sobre..."
+**Mensaje WA:** "Hola Solutecgy, vengo del sitio web y quiero más información sobre..."
 
 ---
 
@@ -257,7 +257,7 @@ Un sitio web profesional, moderno, completamente funcional que:
 
 ---
 
-**¡Felicitaciones por tu nuevo sitio web BlazkTec! 🚀**
+**¡Felicitaciones por tu nuevo sitio web Solutecgy! 🚀**
 
 Para cualquier duda, consulta:
 - `README.md` → Documentación técnica completa

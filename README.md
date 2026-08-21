@@ -1,6 +1,6 @@
-# BlazkTec - Sitio Web Corporativo
+# Solutecgy - Sitio Web Corporativo
 
-Sitio web corporativo de BlazkTec desarrollado con Next.js 14, diseñado con estilo minimalista oscuro inspirado en SpaceX/X.
+Sitio web corporativo de Solutecgy desarrollado con Next.js 14, diseñado con estilo minimalista oscuro inspirado en SpaceX/X.
 
 ## 🚀 Características
 
@@ -27,7 +27,7 @@ Sitio web corporativo de BlazkTec desarrollado con Next.js 14, diseñado con est
 
 ```bash
 # Clonar el repositorio
-cd blazktec-web
+cd <directorio-del-proyecto>
 
 # Instalar dependencias
 npm install
@@ -140,14 +140,14 @@ vercel --prod
 ### Configurar Dominio Custom
 
 1. En Vercel, ir a Settings > Domains
-2. Agregar tu dominio (ej: blazktec.com)
+2. Agregar tu dominio (ej: solutecgy.com)
 3. Configurar DNS según instrucciones de Vercel
 4. Esperar propagación DNS (puede tardar hasta 48h)
 
 ## 📂 Estructura del Proyecto
 
 ```
-blazktec-web/
+<directorio-del-proyecto>/
 ├── app/
 │   ├── globals.css          # Estilos globales + Tailwind
 │   ├── layout.tsx            # Layout con metadata SEO
@@ -180,7 +180,7 @@ blazktec-web/
 
 - **Email destino:** ivanii5862@gmail.com
 - **WhatsApp:** +502 5564 1352
-- **Mensaje predefinido:** "Hola BlazkTec, vengo del sitio web y quiero más información sobre..."
+- **Mensaje predefinido:** "Hola Solutecgy, vengo del sitio web y quiero más información sobre..."
 
 ## ✅ Checklist Pre-Deploy
 
@@ -238,9 +238,8 @@ npm run build
 
 ## 📄 Licencia
 
-© 2026 BlazkTec. Todos los derechos reservados.
+© 2026 Solutecgy. Todos los derechos reservados.
 
 ---
 
-**Desarrollado con ❤️ por BlazkTec**
-
+**Desarrollado con ❤️ por Solutecgy**

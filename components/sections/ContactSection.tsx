@@ -5,7 +5,7 @@ export default function ContactSection() {
   const whatsappNumber = '50255641352';
   const email = 'ivanii5862@gmail.com';
   const message = encodeURIComponent(
-    'Hola BlazkTec, vengo del sitio web y quiero más información sobre...'
+    'Hola Solutecgy, vengo del sitio web y quiero más información sobre...'
   );
 
   return (

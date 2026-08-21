@@ -45,10 +45,10 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center group">
             <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center mr-3 group-hover:rotate-12 transition-transform duration-300 shadow-[0_0_15px_rgba(255,107,0,0.4)]">
-              <span className="text-white font-black text-xl">B</span>
+              <span className="text-white font-black text-xl">S</span>
             </div>
             <span className="text-2xl font-black tracking-tighter text-foreground group-hover:text-accent transition-colors duration-300">
-              BLAZ<span className="text-accent group-hover:text-foreground">K</span>TEC
+              SOLUTEC<span className="text-accent group-hover:text-foreground">GY</span>
             </span>
           </Link>
 
